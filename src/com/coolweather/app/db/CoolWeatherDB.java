@@ -123,7 +123,7 @@ public class CoolWeatherDB {
 			ContentValues values = new ContentValues();
 			values.put("city_id", county.getCityId());
 			values.put("county_name", county.getCountyName());
-			values.put("city_code", county.getCountyCode());
+			values.put("county_code", county.getCountyCode());
 			db.insert("County", null, values);
 		}
 	}
